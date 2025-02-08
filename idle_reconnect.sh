@@ -17,7 +17,7 @@
 NODE_ID="C9050"
 
 # Set the idle timeout in minutes
-IDLE_TIME="1"
+IDLE_TIME="60"
 
 
 ## README ##
