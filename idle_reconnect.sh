@@ -69,7 +69,7 @@ if [ "$RUN_ENV" != "TRUE" ] ; then
     . /home/irlp/custom/environment
     fi
  
-# If enabled, inactive and idle for 15 or more minutes then connect.
+# If enabled, inactive and idle for $IDLE_TIME or more minutes then connect.
 if [ -f ~/local/enable ] && [ ! -f ~/local/active ] && [ $(find ~/custom/custom_status -type f -mmin +${IDLE_TIME} 2>/dev/null) ]; then
         echo "$LOGDATETIME Node Idle, reconnecting to $NODE_ID" >> ~/log/messages
     decode $NODE_ID
