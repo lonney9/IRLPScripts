@@ -23,7 +23,7 @@ IDLE_TIME="60"
 ## README ##
 ## Configure the system for the script ##
 ## $CUSTOM is usually /home/irlp/custom/ ## 
-## Unless NOTED all files should be created/edited as user repater ##
+## Unless NOTED all files should be created/edited as user repeater ##
 
 # EDIT  $CUSTOM/custom_decode  to connect with no time out
 # Example: This will only connect to 9050 with notimeout when C9050 is dialed by the script or a radio user
