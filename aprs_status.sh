@@ -93,7 +93,7 @@ if [ "$RUN_ENV" != "TRUE" ] ; then
 fi
 
 # Read in the node specific settings.
-. $CUSTOM/irlp_aprs_status.conf
+. $CUSTOM/aprs_status.conf
 
 # Figure out which nc to use
 if [ -f /bin/netcat ] ; then
